@@ -1,0 +1,24 @@
+{
+  "name": "ferrari",
+  "version": "1.0.0",
+  "description": "A random website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siraman25/ferrari.git"
+  },
+  "author": "Aris Mandolini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siraman25/ferrari/issues"
+  },
+  "homepage": "https://github.com/Siraman25/ferrari#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
