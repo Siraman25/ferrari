@@ -4,9 +4,8 @@
   "description": "A random website",
   "main": "index.html",
   "scripts": {
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,7 @@
     "url": "https://github.com/Siraman25/ferrari/issues"
   },
   "homepage": "https://github.com/Siraman25/ferrari#readme",
-  "devDependencies": {
-    "lite-server": "^2.6.1"
+  "dependencies": {
+    "http-server": "^0.12.3"
   }
 }
